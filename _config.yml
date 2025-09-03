@@ -1,0 +1,10 @@
+title: "My Web Novel"
+description: "English translation"
+theme: jekyll-theme-minimal
+permalink: /:basename/
+
+defaults:
+  - scope:
+      path: "chapters"
+    values:
+      layout: chapter
